@@ -1,11 +1,11 @@
-=== WP Malware Removal ===
+=== Easy Restaurant Menus ===
 Contributors: varun21, ruchika_wp
-Tags: Tags: security, anti-malware, scanner, malware, virus, threat, hacked, malicious, infection
-Donate link: https://www.converticacommerce.com?item_name=Donation%20for%20WP%20Malware%20Removal&cmd=_xclick&currency_code=USD&business=shivanand@converticacommerce.com
+Tags: Tags: restaurant, food, menus
+Donate link: https://www.converticacommerce.com?item_name=Donation%20for%20Easy%20Restaurant%20Menus&cmd=_xclick&currency_code=USD&business=shivanand@converticacommerce.com
 Requires at least: 3.7.4
 Tested up to: 5.1
 Requires PHP: 7.0
-Stable tag: 0.8
+Stable tag: 0.2
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 
