@@ -347,7 +347,7 @@ final class Easy_Restaurant_Menus {
     function activation() {}
     
     function plugin_action_links($links) {
-        $links[] = '<a href="https://www.converticacommerce.com/?item_name=Donate%20to%20Easy%20Restaurant%20Menus&cmd=_xclick&business=shivanand@converticacommerce.com">Donate</a>';
+        $links[] = '<a href="https://www.converticacommerce.com?item_name=Donation%20for%20Easy%20Restaurant%20Menus&cmd=_xclick&currency_code=USD&business=shivanand@converticacommerce.com">Donate</a>';
         return $links;
     }    
 
