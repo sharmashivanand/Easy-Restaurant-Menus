@@ -87,11 +87,11 @@ final class Easy_Restaurant_Menus {
         $menu = get_post_meta( $menu_id, 'erm_items', true );
         
         ob_start();
-        if(current_user_can('edit_others_posts')){
+        if(current_user_can('edit_posts', $menu_id)){
             echo '<a class="erm-edit" href="'.get_edit_post_link( $menu_id ).'">Edit Menu</a>';
         }
         echo apply_filters('erm_show_menu_title', '<h2>'.get_the_title($menu_id).'</h2>');
-        if( empty($atts->format) || $atts->format == 'list' ) {
+        if( empty($atts['format']) || $atts['format'] == 'list' ) {
             echo '<dl>';
             foreach($menu as $arr_items) {
                 echo '<dt>'.$arr_items['item'].'</dt>';
@@ -100,7 +100,7 @@ final class Easy_Restaurant_Menus {
             echo '</dl>';
             return ob_get_clean();
         }
-        if( $atts->format == 'table' ) {
+        if( $atts['format'] == 'table' ) {
             echo '<table id="erm-'.$menu_id.'"><thead class="erm_menu_header"><tr><th class="erm_name_header">'.$this->get_name_header().'</th><th class="erm_description_header">'.$this->get_description_header().'</th><th class="erm_price_header">'.$this->get_price_header().'</th><th class="erm_unit_header">'.$this->get_unit_header().'</th></tr></thead>';
             foreach($menu as $arr_items) {
                 echo '<tr>';
