@@ -14,12 +14,6 @@ Easily create and manage restaurant / food menus.
 == Description ==
 Easily create and manage restaurant / food menus. It's light-weight, simple and easy-to-use.
 
-*  Checks integrity of the WordPress core files.
-*  Checks for viruses and infections using malware definitions.
-*  Hourly update of malware signatures.
-*  Connects to definition update server to fetch latest definitions.
-
-
 ####HIGHLIGHTS:
 
 *  Easily create new restaurant / food menus
