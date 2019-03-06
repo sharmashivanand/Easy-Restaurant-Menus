@@ -37,7 +37,6 @@ final class Easy_Restaurant_Menus {
 		if ( is_null( $instance ) ) {
 			$instance = new self;
 			$instance->setup();
-			$instance->includes();
 			$instance->setup_actions();
 		}
 		return $instance;
@@ -52,13 +51,6 @@ final class Easy_Restaurant_Menus {
     }
 
     function includes() {
-		// Include functions files.
-		//require_once( $this->dir . 'inc/functions.php'    );
-		//require_once( $this->dir . 'inc/options.php'    );
-        
-        if ( is_admin() ) {
-            //require_once( $this->dir . 'admin/class-settings.php' );
-		}
     }
     
     function setup_actions() {
