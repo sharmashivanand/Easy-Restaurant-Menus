@@ -5,7 +5,7 @@ Donate link: https://www.converticacommerce.com?item_name=Donation%20for%20Easy%
 Requires at least: 3.7.4
 Tested up to: 5.1
 Requires PHP: 7.0
-Stable tag: 0.2
+Stable tag: 0.1
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 

@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Easy Restaurant Menus
  * Description: Easily create and edit restaurant menus
- * Version:     0.2
+ * Version:     0.1
  * Plugin URI:  https://wordpress.org/plugins/easy-restaurant-menus/
  * Author:      Shivanand Sharma
  * Author URI:  https://www.converticacommerce.com
